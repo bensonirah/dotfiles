@@ -28,6 +28,13 @@ function create_session() {
 	exit 0
 }
 
+if [[ $# -eq 0 ]]; then
+	echo "session name required!"
+	echo "usage: ide session"
+	exit 1
+fi
+
+
 tmux ls 2>/dev/null
 
 if [[ $? -ne 0 ]];then
