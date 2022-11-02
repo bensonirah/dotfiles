@@ -1,0 +1,12 @@
+### > phpstorm ###
+alias idea="phpstorm > /dev/null 2>&1 &"
+### <phpstorm ###
+
+### > symfony ###
+alias start="symfony server:start --no-tls"
+alias debug-router="symfony console debug:router"
+### < symfony ###
+
+### > git ###
+alias gituntrack="git ls-files --others --exclude-standard"
+### > git ###
