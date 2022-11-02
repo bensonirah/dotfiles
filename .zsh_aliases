@@ -1,6 +1,7 @@
 if [ -f ~/dotfiles/aliases/.alias ]; then
     . ~/dotfiles/aliases/.alias
 fi
+
 alias ls="exa --icons"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

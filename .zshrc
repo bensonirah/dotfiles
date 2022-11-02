@@ -152,7 +152,7 @@ export PATH=$PROJECT_WORKSPACE:$PATH
 
 
 if [ -f ~/dotfiles/functions/functions.sh ]; then
-  . ~/dotfiles/functions/functions
+  . ~/dotfiles/functions/functions.sh
 fi
 
 

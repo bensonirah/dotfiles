@@ -34,3 +34,8 @@ function psearch() {
 function levelbatt() {
  echo  `upower -d | grep percentage |head -n 1 |awk -F':' '{print $2}' | xargs`
 }
+
+
+function s(){
+	source ~/.zshrc
+}
