@@ -1,0 +1,14 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "tsirysndr/tap"
+# GNU compiler collection
+brew "gcc"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Tool for glamorous shell scripts
+brew "gum"
+# Web and API based SMTP testing tool
+brew "mailhog"
+# An extensible music server written in Rust
+brew "tsirysndr/tap/musicplayer"
